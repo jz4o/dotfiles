@@ -17,3 +17,5 @@ nnoremap - <C-x>
 
 set vb t_vb=      "Beep音を鳴らさない
 
+set scrolloff=3   "3行分の余裕を持たせてスクロールする
+
