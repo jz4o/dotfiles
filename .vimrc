@@ -3,7 +3,7 @@ set fileformats=unix,dos,mac
 set encoding=utf8 "エンコードをutf-8にする
 set number        "行番号を表示
 set title         "編集中のファイル名を表示
-set expandtab     "タブをスペースに置き換える" 
+set expandtab     "タブをスペースに置き換える"
 set tabstop=2     "インデントをスペース2つ分に設定
 set autoindent    "インデントを自動でつける
 set showmatch     "対応する括弧を強調表示
