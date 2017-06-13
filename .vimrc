@@ -19,3 +19,4 @@ set vb t_vb=      "Beep音を鳴らさない
 
 set scrolloff=3   "3行分の余裕を持たせてスクロールする
 
+autocmd BufWritePre * :%s/\s\+$//ge  "保存時に行末の空白を自動削除
