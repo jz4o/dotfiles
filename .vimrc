@@ -15,6 +15,9 @@ set whichwrap=<,> "行頭・行末で左・右を選択すると前・後の行�
 nnoremap + <C-a>
 nnoremap - <C-x>
 
+"ESCキー2回でハイライトを削除する
+nnoremap <ESC><ESC> :noh<CR>
+
 set vb t_vb=      "Beep音を鳴らさない
 
 set scrolloff=3   "3行分の余裕を持たせてスクロールする
