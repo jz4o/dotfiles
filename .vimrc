@@ -5,6 +5,7 @@ set number        "行番号を表示
 set title         "編集中のファイル名を表示
 set expandtab     "タブをスペースに置き換える"
 set tabstop=2     "インデントをスペース2つ分に設定
+set shiftwidth=2  "<< >>によるタブサイズを設定
 set autoindent    "インデントを自動でつける
 set showmatch     "対応する括弧を強調表示
 set ignorecase    "検索の際に大文字・小文字の区別をしない
