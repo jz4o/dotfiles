@@ -1,0 +1,3 @@
+# ビープ音をOFFにする
+set bell-style none
+
