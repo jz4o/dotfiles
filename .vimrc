@@ -1,7 +1,8 @@
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileencodings=utf-8,euc-jp,sjis,cp932,iso-2022-jp
 set fileformats=unix,dos,mac
 set encoding=utf8 "エンコードをutf-8にする
 set number        "行番号を表示
+set nowrap        "行の折り返し表示をしない
 set title         "編集中のファイル名を表示
 set expandtab     "タブをスペースに置き換える"
 set tabstop=2     "インデントをスペース2つ分に設定
@@ -24,3 +25,5 @@ set vb t_vb=      "Beep音を鳴らさない
 set scrolloff=3   "3行分の余裕を持たせてスクロールする
 
 autocmd BufWritePre * :%s/\s\+$//ge  "保存時に行末の空白を自動削除
+
+autocmd BufRead,BufNewFile *.md set filetype=markdown "Markdownのハイライトを有効にする
