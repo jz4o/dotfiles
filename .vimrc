@@ -12,6 +12,8 @@ set showmatch     "対応する括弧を強調表示
 set ignorecase    "検索の際に大文字・小文字の区別をしない
 set smartcase     "大文字を含む文字を検索する場合、大文字・小文字を区別
 set whichwrap=<,> "行頭・行末で左・右を選択すると前・後の行に移動
+set nobackup      "バックアップファイルを作成しない
+set noswapfile    "スワップファイルを作成しない
 
 "+-キーで数字のインクリメント・デクリメント
 nnoremap + <C-a>
