@@ -29,3 +29,5 @@ set scrolloff=3   "3行分の余裕を持たせてスクロールする
 autocmd BufWritePre * :%s/\s\+$//ge  "保存時に行末の空白を自動削除
 
 autocmd BufRead,BufNewFile *.md set filetype=markdown "Markdownのハイライトを有効にする
+
+autocmd InsertLeave * set nopaste "インサートモードを抜けるときにペーストモードを無効にする
