@@ -1,0 +1,5 @@
+[
+  // Ctrl + Tab (+ Shift) で左右のタブへ移動
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+]
