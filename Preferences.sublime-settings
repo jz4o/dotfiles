@@ -2,6 +2,8 @@
   "default_line_ending": "unix",
   "draw_white_space": "all",
   "font_size": 10,
+  // https://www.google.com/get/noto/#sans-jpan
+  "font_face": "Noto Sans Mono CJK JP",
   "ignored_packages":
   [
     "Vintage"
