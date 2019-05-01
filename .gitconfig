@@ -7,3 +7,9 @@
 [core]
   # コミットメッセージの記載にvimを使用する
   editor = "vim -c 'set fileencoding=utf-8' "
+
+  # 日本語が文字化けしないようにする
+  quotepath = false
+
+  # コミットメッセージのコメントマークを「;」にする
+  commentChar = ";"
