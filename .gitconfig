@@ -1,9 +1,3 @@
-[user]
-  # ユーザ名
-  # name = xxxxx
-
-  # メールアドレス
-  # email = xxxxx@xxxxx.xxx
 [core]
   # コミットメッセージの記載にvimを使用する
   editor = "vim -c 'set fileencoding=utf-8' "
