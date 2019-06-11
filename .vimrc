@@ -15,6 +15,7 @@ set smartcase     "大文字を含む文字を検索する場合、大文字・�
 set whichwrap=<,> "行頭・行末で左・右を選択すると前・後の行に移動
 set nobackup      "バックアップファイルを作成しない
 set noswapfile    "スワップファイルを作成しない
+set laststatus=2  "ステータスラインを常に表示
 
 "+-キーで数字のインクリメント・デクリメント
 nnoremap + <C-a>
