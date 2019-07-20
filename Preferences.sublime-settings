@@ -14,7 +14,8 @@
   "trim_trailing_white_space_on_save": true,
   "font_options":
   [
-    "no_bold"
+    "no_bold",
+    "no_italic"
   ],
   "word_wrap": false
 }
