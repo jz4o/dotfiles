@@ -24,6 +24,10 @@ nnoremap - <C-x>
 "ESCキー2回でハイライトを削除する
 nnoremap <ESC><ESC> :noh<CR>
 
+"H,Lキーでタブ移動
+nnoremap H gT
+nnoremap L gt
+
 set vb t_vb=      "Beep音を鳴らさない
 
 set scrolloff=3   "3行分の余裕を持たせてスクロールする
