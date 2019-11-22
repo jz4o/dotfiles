@@ -1,1 +1,2 @@
 alias today="date '+%Y%m%d'"
+alias :q='exit'
