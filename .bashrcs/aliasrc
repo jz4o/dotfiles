@@ -1,3 +1,4 @@
 alias ll='ls -l'
 alias today="date '+%Y%m%d'"
 alias :q='exit'
+alias ..='cd ..'
