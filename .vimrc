@@ -10,6 +10,7 @@ set shiftwidth=2  "<< >>によるタブサイズを設定
 set autoindent    "インデントを自動でつける
 set showmatch     "対応する括弧を強調表示
 set incsearch     "インクリメンタルサーチ
+set hlsearch      "ハイライトサーチ
 set ignorecase    "検索の際に大文字・小文字の区別をしない
 set smartcase     "大文字を含む文字を検索する場合、大文字・小文字を区別
 set whichwrap=<,> "行頭・行末で左・右を選択すると前・後の行に移動
